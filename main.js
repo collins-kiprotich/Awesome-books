@@ -5,7 +5,7 @@ class Book {
         this.author = author;
     }
 }
-/*eslint-disable */
+
 
 /*eslint-disable */
 class UI {

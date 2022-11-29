@@ -1,69 +1,15 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
-
 <!-- PROJECT DESCRIPTION -->
 
 # Awesome books <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[awesome books]** is a... a books website built using plainly javascript and HTML 
+**[awesome books]** is a books website built using plainly javascript and HTML 
 
-## 🛠 Built With <a name="HTML"></a> <a name="Javascript"></a>
+## 🛠 Built With 
+
+- HTML
+- Javascript
 
 <!-- LIVE DEMO -->
 
@@ -71,14 +17,15 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdep)
+- [Live Demo Link](https://collins-kiprotich.github.io/Awesome-books/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-You need a code editor and browser.
+- code editor and 
+- browser.
 
 
 <!--
@@ -140,7 +87,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Collins Kiprotich**
 

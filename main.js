@@ -21,7 +21,7 @@ class UI {
     const div = document.createElement('div');
     div.classList.add('listing');
     div.innerHTML = `
-        <div>"${book.title}" By </div><div class="author-div">${book.author}</div>
+        <div class="book-title">"${book.title}" By </div><div class="author-div">${book.author}</div>
         <button class='delete' id='delete'>Remove</button> 
         `;
     list.appendChild(div);
@@ -85,7 +85,7 @@ document.querySelector('#booksform').addEventListener('submit', (e) => {
   UI.clearFields();
 });
 
-// remove an item
+// remove an item from book list
 document.querySelector('#book-list').addEventListener('click', (e) => {
   UI.deleteBook(e.target);
   store.removeBook(e.target.previousElementSibling.textContent);

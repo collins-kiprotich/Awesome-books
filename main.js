@@ -1,6 +1,6 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-use-before-define */
 /* eslint-disable max-classes-per-file */
-/* eslint-disable linebreak-style */
 /* eslint-disable no-trailing-spaces */
 /* eslint-disable lines-between-class-members */
 class Book {
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', UI.displayBook);
 document.querySelector('#booksform').addEventListener('submit', (e) => {
   e.preventDefault();
   const author = document.querySelector('#author').value;
-    const title = document.querySelector('#book').value;
+  const title = document.querySelector('#book').value;
 
   // instatiate a book
   const book = new Book(title, author);

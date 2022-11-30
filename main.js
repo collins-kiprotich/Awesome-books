@@ -33,8 +33,8 @@ class UI {
     }
   }
   static clearFields() {
-    document.querySelector('#book').value = '';
     document.querySelector('#author').value = '';
+    document.querySelector('#book').value = '';
   }
 }
 

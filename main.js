@@ -1,6 +1,6 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-use-before-define */
 /* eslint-disable max-classes-per-file */
-/* eslint-disable linebreak-style */
 /* eslint-disable no-trailing-spaces */
 /* eslint-disable lines-between-class-members */
 class Book {
@@ -21,7 +21,7 @@ class UI {
     const div = document.createElement('div');
     div.classList.add('listing');
     div.innerHTML = `
-        <div>"${book.title}" By </div><div class="author-div">${book.author}</div>
+        <div class="book-title">"${book.title}" By </div><div class="author-div">${book.author}</div>
         <button class='delete' id='delete'>Remove</button> 
         `;
     list.appendChild(div);
@@ -33,8 +33,8 @@ class UI {
     }
   }
   static clearFields() {
-    document.querySelector('#book').value = '';
     document.querySelector('#author').value = '';
+    document.querySelector('#book').value = '';
   }
 }
 
@@ -72,8 +72,8 @@ document.addEventListener('DOMContentLoaded', UI.displayBook);
 
 document.querySelector('#booksform').addEventListener('submit', (e) => {
   e.preventDefault();
-  const title = document.querySelector('#book').value;
   const author = document.querySelector('#author').value;
+  const title = document.querySelector('#book').value;
 
   // instatiate a book
   const book = new Book(title, author);
@@ -85,7 +85,7 @@ document.querySelector('#booksform').addEventListener('submit', (e) => {
   UI.clearFields();
 });
 
-// remove an item
+// remove an item from book list
 document.querySelector('#book-list').addEventListener('click', (e) => {
   UI.deleteBook(e.target);
   store.removeBook(e.target.previousElementSibling.textContent);

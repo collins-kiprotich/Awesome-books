@@ -52,6 +52,7 @@ h1 {
 
 #book-list {
   background-color: rgb(184, 178, 178);
+  margin-top: 20%;
 }
 
 .book-title {
@@ -71,6 +72,7 @@ h1 {
 }
 
 #booksform {
+  margin-top: 10%;
   text-align: center;
   flex-direction: column;
   border-top: 2px solid black;
@@ -105,4 +107,18 @@ footer{
   display: flex;
   align-items: center;
   padding-left: 5%;
+}
+
+#addbook {
+  display: flex;
+
+
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: blue;
 }

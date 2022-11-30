@@ -1,9 +1,11 @@
 body {
   padding: 19%;
 }
+
 section {
   height: 100vh;
 }
+
 nav {
   background-color: white;
   display: flex;
@@ -17,25 +19,27 @@ nav {
   padding-left: 8%;
   padding-right: 4%;
   height: 40px;
-  
 }
-nav .left-side{
+
+nav .left-side {
   display: flex;
   align-items: center;
 }
+
 nav ul {
   display: flex;
   gap: 10%;
- 
 }
-nav li:hover{
-  color: blue;
-}
+
 nav li {
   list-style-type: none;
   border-right: 2px solid black;
   padding-right: 3px;
   cursor: pointer;
+}
+
+nav li:hover {
+  color: blue;
 }
 
 h1 {
@@ -52,7 +56,7 @@ h1 {
 
 #book-list {
   background-color: rgb(184, 178, 178);
-  margin-top: 20%;
+  margin-top: 2%;
 }
 
 .book-title {
@@ -87,15 +91,18 @@ h1 {
   height: 25px;
   margin-bottom: 5px;
 }
+
 #contact h2 {
   text-align: center;
 }
+
 #contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-footer{
+
+footer {
   background-color: white;
   margin-top: 20px;
   position: fixed;
@@ -111,14 +118,13 @@ footer{
 
 #addbook {
   display: flex;
-
-
 }
 
 nav a {
   text-decoration: none;
   color: black;
 }
+
 nav a:hover {
   color: blue;
 }

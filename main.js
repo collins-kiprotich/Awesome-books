@@ -33,7 +33,7 @@ class UI {
     }
   }
   static clearFields() {
-     document.querySelector('#book').value = '';
+    document.querySelector('#book').value = '';
     document.querySelector('#author').value = '';
   }
 }
@@ -41,7 +41,7 @@ class UI {
 class store {
   static getBooks() {
     let books;
-    let checkNull =localStorage.getItem('books') === null;
+    const checkNull = localStorage.getItem('books') === null;
     if (checkNull) {
       books = [];
     } else {

@@ -41,7 +41,8 @@ class UI {
 class store {
   static getBooks() {
     let books;
-    if (localStorage.getItem('books') === null) {
+    let checkNull =localStorage.getItem('books') === null;
+    if (checkNull) {
       books = [];
     } else {
       books = JSON.parse(localStorage.getItem('books'));

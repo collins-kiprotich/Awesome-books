@@ -8,11 +8,24 @@
     <title>AwsomeBooks</title>
 </head>
 <body>
-    <div class="container">
-        <h1>All Awesome Books</h1>
+    <header>
+        <nav>
+            <div class="left">All Awesome books</div>
+            <div class="right">
+                <a href="#list-header">List</a>
+                <a href="#booksform">Add new</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <div class="list-header" id="list-header">
+        <div class="container">
+            <h1>All Awesome Books</h1>
+        </div>
+        <div id="book-list">
+        </div>
     </div>
-    <div id="book-list">
-    </div>
+    
    
     <form id="booksform">
         <h3>Add a new book</h3>
@@ -25,6 +38,19 @@
         </div>
         <button type="submit">Add book</button>
     </form>
+    <div id="Contact">
+        <h2>Contact information</h2>
+        <p>Do you have ny questions or you just want to say "Hello"? <br>You can reach out to us !</p>
+        <ul>
+            <li>Our Email: collinskiprotich@gmail.com</li>
+            <li>Our Phone: +254717440560</li>
+            <li>Our Address:P.O. BOX 10 Koru</li>
+        </ul>
+    </div>
+
+    <footer>
+        <div>Copyright @ CCKitur</div>
+    </footer>
 <script src="main.js"></script>
 </body>
 </html>

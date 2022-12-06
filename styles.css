@@ -2,14 +2,14 @@ body {
   padding: 19%;
   font-family: Arial, Helvetica, sans-serif;
 }
-header{
+
+header {
   background-color: white;
   position: fixed;
   right: 0;
   left: 0;
   top: 0;
   height: 60px;
-  
 }
 
 #nav-time {
@@ -17,6 +17,7 @@ header{
   top: 65px;
   right: 2%;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -24,22 +25,26 @@ nav {
   border: 2px solid black;
   margin: 1% 2%;
 }
-nav a{
+
+nav a {
   text-decoration: none;
   color: black;
 }
+
 nav a:hover {
-color: blue;
+  color: blue;
 }
+
 nav .right {
   display: flex;
   gap: 20px;
 }
- footer {
+
+footer {
   background-color: white;
   position: fixed;
   bottom: 0;
-  left: 0px;
+  left: 0;
   right: 0;
   border: 2px solid black;
   height: 30px;
@@ -49,11 +54,13 @@ nav .right {
   align-items: center;
   padding: 1% 2%;
   margin: 1% 2%;
- }
- .list-header{
+}
+
+.list-header {
   height: 100vh;
   padding-top: 10%;
- }
+}
+
 h1 {
   color: black;
   text-align: center;
@@ -90,7 +97,6 @@ h1 {
   text-align: center;
   flex-direction: column;
   border-top: 2px solid black;
-  padding-top: 10px;
   height: 100vh;
   padding-top: 15%;
 }

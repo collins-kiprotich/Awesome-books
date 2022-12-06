@@ -1,9 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-use-before-define */
-/* eslint-disable max-classes-per-file */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable lines-between-class-members */
-
 export default class store {
   static getBooks() {
     let books;
@@ -14,13 +8,13 @@ export default class store {
     }
     return books;
   }
-  
+
   static addBook(book) {
     const books = store.getBooks();
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
-  
+
   static removeBook(author) {
     const books = store.getBooks();
     books.forEach((book, index) => {

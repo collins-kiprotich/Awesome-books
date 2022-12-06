@@ -1,8 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-use-before-define */
-/* eslint-disable max-classes-per-file */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable lines-between-class-members */
 import store from './store.js';
 
 export default class UI {
@@ -10,7 +5,7 @@ export default class UI {
     const books = store.getBooks();
     books.forEach((book) => UI.addBookToList(book));
   }
-  
+
   static addBookToList(book) {
     const list = document.querySelector('#book-list');
     const div = document.createElement('div');
@@ -21,12 +16,13 @@ export default class UI {
           `;
     list.appendChild(div);
   }
-  
+
   static deleteBook(clickTarget) {
     if (clickTarget.classList.contains('delete')) {
       clickTarget.parentElement.remove();
     }
   }
+
   static clearFields() {
     document.querySelector('#author').value = '';
     document.querySelector('#book').value = '';

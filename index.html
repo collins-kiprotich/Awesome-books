@@ -5,26 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
     <title>AwsomeBooks</title>
 </head>
 <body>
-    <div class="container">
-        <h1>All Awesome Books</h1>
+    <header >
+        <nav>
+            <div class="left">All Awesome books</div>
+            <div class="right">
+                <a href="#list-header">List</a>
+                <a href="#booksform">Add new</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <div id="nav-time"></div>
+    <div class="list-header" id="list-header">
+        <div class="container">
+            <h1>All Awesome Books</h1>
+        </div>
+        <div id="book-list">
+        </div>
     </div>
-    <div id="book-list">
-    </div>
+    
    
     <form id="booksform">
         <h3>Add a new book</h3>
         <div>
-            <input type="text" id="book" placeholder="Title">
+            <input type="text" id="book" placeholder="Title" required>
         </div>
 
         <div>
-            <input type="text" id="author" placeholder="Author">
+            <input type="text" id="author" placeholder="Author" required>
         </div>
         <button type="submit">Add book</button>
     </form>
-<script src="main.js"></script>
+    <div id="Contact">
+        <h2>Contact information</h2>
+        <p>Do you have ny questions or you just want to say "Hello"? <br>You can reach out to us !</p>
+        <ul>
+            <li>Our Email: collinskiprotich@gmail.com</li>
+            <li>Our Phone: +254717440560</li>
+            <li>Our Address:P.O. BOX 10 Koru</li>
+        </ul>
+    </div>
+
+    <footer>
+        <div>Copyright @ CCKitur</div>
+    </footer>
+<script type="module" src="main.js"></script>
 </body>
 </html>

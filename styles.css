@@ -1,5 +1,64 @@
 body {
   padding: 19%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 60px;
+}
+
+#nav-time {
+  position: fixed;
+  top: 65px;
+  right: 2%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2%;
+  border: 2px solid black;
+  margin: 1% 2%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+nav .right {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 1% 2%;
+  margin: 1% 2%;
+}
+
+.list-header {
+  height: 100vh;
+  padding-top: 10%;
 }
 
 h1 {
@@ -38,7 +97,8 @@ h1 {
   text-align: center;
   flex-direction: column;
   border-top: 2px solid black;
-  padding-top: 10px;
+  height: 100vh;
+  padding-top: 15%;
 }
 
 .add-btn {
